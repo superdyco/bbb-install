@@ -223,7 +223,7 @@ main() {
     check_ubuntu 18.04
     TOMCAT_USER=tomcat8
   fi
-  check_mem
+  # check_mem
 
   need_pkg software-properties-common  # needed for add-apt-repository
   sudo add-apt-repository universe
