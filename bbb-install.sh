@@ -188,9 +188,9 @@ main() {
     esac
   done
 
-  if [ ! -z "$HOST" ]; then
-    check_host $HOST
-  fi
+ # if [ ! -z "$HOST" ]; then
+ #   check_host $HOST
+ # fi
 
   if [ ! -z "$VERSION" ]; then
     check_version $VERSION
