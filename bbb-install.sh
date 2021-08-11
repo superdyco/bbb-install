@@ -585,7 +585,7 @@ check_coturn() {
     err "You must specify a new password (not the example given in the docs)."
   fi
 
-  check_host $COTURN_HOST
+  # check_host $COTURN_HOST
 }
 
 check_apache2() {
